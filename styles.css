@@ -24,7 +24,7 @@ body { font-family: 'Inter', sans-serif; background: var(--dark); min-height: 10
 .page.active { display: block; }
 
 /* TOP LABEL */
-.frame-label { background: var(--dark); color: #888; font-size: 12px; padding: 8px 16px; }
+.frame-label { display: none; }
 
 /* OUTER / INNER */
 .outer { background: var(--dark); padding: 12px; min-height: calc(100vh - 28px); }
